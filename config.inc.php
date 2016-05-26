@@ -1,13 +1,13 @@
-<?php 
+ï»¿<?php 
 
 $serverName = "mobilegayosso8022.cloudapp.net,57500"; //serverName\instanceName, portNumber (por defecto es 1433)
 $connectionInfo = array( "Database"=>"ClientesGayosso", "UID"=>"sa", "PWD"=>"N01psc100");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $conn ) {
-     echo "Conexión establecida.<br />";
+     echo "ConexiÃ³n establecida.<br />";
 }else{
-     echo "Conexión no se pudo establecer.<br />";
+     echo "ConexiÃ³n no se pudo establecer.<br />";
      die( print_r( sqlsrv_errors(), true));
 }
      
