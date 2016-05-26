@@ -1,0 +1,42 @@
+<?php 
+
+$serverName = "mobilegayosso8022.cloudapp.net,57500"; //serverName\instanceName, portNumber (por defecto es 1433)
+$connectionInfo = array( "Database"=>"ClientesGayosso", "UID"=>"sa", "PWD"=>"N01psc100");
+$conn = sqlsrv_connect( $serverName, $connectionInfo);
+
+if( $conn ) {
+     echo "Conexión establecida.<br />";
+}else{
+     echo "Conexión no se pudo establecer.<br />";
+     die( print_r( sqlsrv_errors(), true));
+}
+     
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
+    $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC); 
+     
+    if(function_exists('get_magic_quotes_gpc') && get_magic_quotes_gpc()) 
+    { 
+        function undo_magic_quotes_gpc(&$array) 
+        { 
+            foreach($array as &$value) 
+            { 
+                if(is_array($value)) 
+                { 
+                    undo_magic_quotes_gpc($value); 
+                } 
+                else 
+                { 
+                    $value = stripslashes($value); 
+                } 
+            } 
+        } 
+     
+        undo_magic_quotes_gpc($_POST); 
+        undo_magic_quotes_gpc($_GET); 
+        undo_magic_quotes_gpc($_COOKIE); 
+    } 
+    header('Content-Type: text/html; charset=utf-8'); 
+    session_start(); 
+
+
+?>
