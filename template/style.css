@@ -187,12 +187,12 @@ z-index: 9;
   content: "";
   height: 100%;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.2;
   position: absolute;
   top: 0;
   width: 100%;
 }
-.slide-one {background-image: url(img/spap.jpg)}
+.slide-one {background-image: url(img/spa2.png)}
 .slide-two {background-image: url(img/slide-2.jpg)}
 .slide-three {background-image: url(img/slide-3.jpg)}
 .slide-text {color: #fff;font-size: 18px;font-weight: 200}
@@ -206,7 +206,7 @@ z-index: 9;
   content: "";
   height: 100%;
   left: 0;
-  opacity: 0.6;
+  opacity: 0.2;
   position: absolute;
   top: 0;
   width: 100%;
