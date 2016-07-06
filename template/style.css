@@ -78,7 +78,7 @@ body { font-family: 'Titillium Web', sans-serif; }
 font-family: "Roboto Condensed",sans-serif;
 text-transform: uppercase;
 width: 100%;
-z-index: 999;}
+z-index: 900;}
 
 
 
@@ -144,9 +144,9 @@ z-index: 999;}
 
 .mainmenu-area ul.navbar-nav li a {
     color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px;
 }
 
 .mainmenu-area ul.navbar-nav li:hover a, .mainmenu-area ul.navbar-nav li.active a {background: #222}
@@ -156,7 +156,7 @@ z-index: 999;}
 .slider-area, .promo-area, .brands-area, .maincontent-area, .footer-top-area, .product-widget-area, .product-breadcroumb-area, .single-product-area {position: relative;overflow: hidden}
 .zigzag-bottom {}
 .slide-text-wrapper {
-  height: 700px;
+  height: 675px;
 }
 .slide-text-wrapper {
   display: table;width: 100%;
@@ -176,7 +176,7 @@ z-index: 9;
 }
 
 .slide-bg {
-  height: 100%;
+  height: 85%;
   left: 0;
   position: absolute;
   top: 0;
@@ -187,14 +187,14 @@ z-index: 9;
   content: "";
   height: 100%;
   left: 0;
-  opacity: 0.2;
+  opacity: 0;
   position: absolute;
   top: 0;
   width: 100%;
 }
 .slide-one {background-image: url(img/spa2.png)}
-.slide-two {background-image: url(img/slide-2.jpg)}
-.slide-three {background-image: url(img/slide-3.jpg)}
+/*.slide-two {background-image: url(img/slide-2.jpg)}
+.slide-three {background-image: url(img/slide-3.jpg)}*/
 .slide-text {color: #fff;font-size: 18px;font-weight: 200}
 .slide-text h2 {
   font-size: 45px;font-weight: 200
@@ -204,9 +204,9 @@ z-index: 9;
 .slide-content:before {
   background: none repeat scroll 0 0 #000;
   content: "";
-  height: 100%;
+  height: 85%;
   left: 0;
-  opacity: 0.2;
+  opacity: 0;
   position: absolute;
   top: 0;
   width: 100%;
@@ -232,7 +232,10 @@ z-index: 9;
 .promo-area {
   background: none repeat scroll 0 0 #1abc9c;
   color: #fff;
-  padding: 77px 0 200px;
+  padding: 10px 0 200px;
+  top: -130px;
+  left: 0px;
+  height: 330px;
 }
 
 .brands-area {
