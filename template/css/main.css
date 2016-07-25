@@ -953,6 +953,10 @@ ul.address {
   background-color: #CECB26;
 }
 
+#footer .social-icons ul li a.instagram:hover {
+  background-color: #CECB26;
+}
+
 #footer .social-icons ul li a.facebook:hover {
   background-color: #3b5999;
 }
