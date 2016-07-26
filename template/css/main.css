@@ -365,6 +365,8 @@ section {
 #portfolio .col-sm-3  {
   overflow: hidden;
   padding: 0;
+  width:50%;
+  height:inherit;
 }
 
 #portfolio .folio-item {
