@@ -396,6 +396,7 @@ section {
 .overlay .overlay-text {
   display: table-cell;
   vertical-align: middle;
+  
 }
 
 .overlay .folio-info {
@@ -560,7 +561,9 @@ section {
 
 #team .img-responsive {
   width: 100%;
+  cursor: pointer;
 }
+
 
 .member-info h3 {
   margin-top: 35px;

@@ -1,10 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "template", ".", "{79AA3628-53D6-460D-A201-1E48362344EA}"
 	ProjectSection(WebsiteProperties) = preProject
+		Frontpage = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_51880"
 		Debug.AspNetCompiler.PhysicalPath = "..\template\"
@@ -20,8 +19,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "template", ".", "{79AA3628-
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "51880"
-		SlnRelativePath = "..\template\"
+		VWDPort = "59074"
 	EndProjectSection
 EndProject
 Global
