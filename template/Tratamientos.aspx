@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/mpUno.master" AutoEventWireup="false" CodeFile="Tratamientos.aspx.vb" Inherits="Tratamientos" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/template/mpUno.master" AutoEventWireup="false" CodeFile="Tratamientos.aspx.vb" Inherits="Tratamientos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
