@@ -4,7 +4,7 @@
 **************************/
 
 body {
-  font-family: Genova, sans-serif;
+  font-family: 'Abadi MT Condensed Light', sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #666;
@@ -162,7 +162,7 @@ section {
 }
 
 .carousel-fade .carousel-inner .item {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition-property: opacity;
   transition-property: opacity;
   background-repeat: no-repeat;
@@ -178,6 +178,7 @@ section {
   left: 0;
   right: 0;
   background: rgba(0,0,0,.7);
+  opacity:0;
 }
 
 .carousel-fade .carousel-inner .active {
@@ -186,7 +187,7 @@ section {
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   left: 0;
-  opacity: 0;
+  opacity: 1;
   z-index: 1;
 }
 .carousel-fade .carousel-inner .next.left,
@@ -932,10 +933,12 @@ ul.address {
 .footer-logo {
   display: inline-block;
   margin-bottom: 5px;
+  height:20px
 }
 
 #footer .social-icons {
   margin-top: 15px;
+  height:15px
 }
 
 #footer .social-icons ul {

@@ -6,7 +6,7 @@ a,
 .single-table.featured .btn.btn-primary, 
 .contact-info ul li a:hover, 
 #footer .footer-bottom a  {
-  color: #40E0D0;
+  color: #58CB95;
 }
 
 .btn.btn-primary:hover,
@@ -34,7 +34,7 @@ a:hover, a:focus {
 .left-control:hover, 
 .right-control:hover, 
 .folio-overview a:hover {
-  background-color:#40E0D0;
+  background-color:#58CB95 /*/#27A37E; 3DB07A
   /*background-color:#028fcc;*/
 }
 
