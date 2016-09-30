@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/template/mpUno.master" AutoEventWireup="false" CodeFile="Masajes.aspx.vb" Inherits="Masajes" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mpUno.master" AutoEventWireup="true" CodeFile="Masajes1.aspx.cs" Inherits="Masajes1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
           <div class="text-center col-sm-8 col-sm-offset-2">
             <h2>Masajes</h2>
@@ -265,6 +265,5 @@
           </div>
         </div> 
       </div>
-
 </asp:Content>
 
