@@ -3,9 +3,12 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+     
+ 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
@@ -283,13 +286,30 @@ label:hover:before {
 
     </style>
 
+
+    
+  
+ 
+                
     <div class="text-center" style="padding:50px 0">
 
 	<div class="logo">login</div>
 	<!-- Main Form -->
+       
+           
+
+          
+     
 	<div class="login-form-1">
-		<form id="login-form" class="text-left">
+		<form id="login-form" class="text-left" >
+           
+           
+           
+           
+            
+            
 			<div class="login-form-main-message"></div>
+            
 			<div class="main-login-form">
 				<div class="login-group">
 					<div class="form-group">
@@ -298,14 +318,16 @@ label:hover:before {
                       
 					</div>
 					<div class="form-group">
-						<label for="lg_password" class="sr-only">Password</label>
+						<label for="lg_password" class="sr-only" >Password</label>
+                     
 					<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
                        
 					</div>
 					
 				</div>
 
-				<button type="submit" class="login-button"><i class="fa fa-chevron-right"></i></button>
+				<button id="c1" type="submit" class="login-button"  ><i class="fa fa-chevron-right"  ></i></button>
+             
                 
 			</div>
 			<div class="etc-login-form">
@@ -314,17 +336,94 @@ label:hover:before {
 			</div>
 		</form>
 	</div>
+        
+          
 	<!-- end:Main Form -->
 </div>
-
+ 
     <script>
+       
+        
+        $("#c1").click(function () {
+            
+            var p1 = document.getElementById("lg_username").value;
+            var p2 = document.getElementById("lg_password").value;
+           
+           
+           
+            var espacios = false;
+            var cont = 0;
+
+            while (!espacios && (cont < p1.length)) {
+                if (p1.charAt(cont) == " ")
+                    espacios = true;
+                cont++;
+            }
+
+            if (espacios) {
+                alert("La contraseña no puede contener espacios en blanco");
+                //return false;
+            }
+
+            if (p1.length == 0 || p2.length == 0) {
+                alert("Los campos de la password no pueden quedar vacios");
+                //return false;
+            }
 
 
+            var users = new Array("Scott", "Jisun", "Sam");
+            var passwords = new Array("password", "password", "password");
+        
+            for (var i = 0; i < length; i++) {
+              
+                var c1 = users[i];
+
+                if (c1 == p1) {
+
+                    var c2 = passwords[i];
+
+                    if (c2 == p2) {
+                     
+                        abrirWindow();
+                    }
+                    else {
+
+                        alert("Contraseña incorrecta");
+
+                    }
+
+                }
+                else {
+                
+                    alert("Usuario incorrecto");
+
+                }
+            }
 
 
+            //if (p1 != p2) {
+            //    alert("Las passwords deben de coincidir");
+            //    //return false;
+            //} else {
+            //    alert("Todo esta correcto");
+            //    //return true;
+            //    abrirWindow();
+            //}
+
+         
+            
+       
+
+        });
 
 
+        function abrirWindow() {
+            window.open('Cargar.aspx');
+        }
     </script>
+   
+
+   
    
 
 </asp:Content>
