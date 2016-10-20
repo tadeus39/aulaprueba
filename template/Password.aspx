@@ -318,7 +318,7 @@ label:hover:before {
                       
 					</div>
 					<div class="form-group">
-						<label for="lg_password" class="sr-only" >Password</label>
+						<label for="lg_password" class="sr-only" >Contraseña</label>
                      
 					<input type="password" class="form-control" id="lg_password" name="lg_password" placeholder="password">
                        
@@ -371,8 +371,8 @@ label:hover:before {
             }
 
 
-            var users = new Array("Scott", "Jisun", "Sam");
-            var passwords = new Array("password", "password", "password");
+            var users = new Array("spazio53", "Jisun", "Sam");
+            var passwords = new Array("12345", "password", "password");
         
             for (var i = 0; i < length; i++) {
               
@@ -401,14 +401,6 @@ label:hover:before {
             }
 
 
-            //if (p1 != p2) {
-            //    alert("Las passwords deben de coincidir");
-            //    //return false;
-            //} else {
-            //    alert("Todo esta correcto");
-            //    //return true;
-            //    abrirWindow();
-            //}
 
          
             

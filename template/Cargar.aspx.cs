@@ -38,12 +38,13 @@ public partial class Cargar : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         Boolean fileOK = false;
-        String path = Server.MapPath("~/images/");
+        //String path = Server.MapPath("~/images/");
         if (FileUpload1.HasFile)
         {
             String fileExtension =
                 System.IO.Path.GetExtension(FileUpload1.FileName).ToLower();
             String[] allowedExtensions = { ".gif", ".png", ".jpeg", ".jpg" };
+            
             for (int i = 0; i < allowedExtensions.Length; i++)
             {
                 if (fileExtension == allowedExtensions[i])
@@ -54,21 +55,28 @@ public partial class Cargar : System.Web.UI.Page
         }
           if (fileOK)
             {
+                string fn = System.IO.Path.GetFileName(FileUpload1.FileName);
+                string SaveLocation = Server.MapPath("images") + "\\" + fn;
+
                 try
                 {
-                    FileUpload1.PostedFile.SaveAs(path
-                        + FileUpload1.FileName);
-                    Label1.Text = "Archivo Subido!";
+                    FileUpload1.PostedFile.SaveAs(SaveLocation);
+                    Response.Write("El archivo se ha cargado.");
+                  
+                    //FileUpload1.PostedFile.SaveAs(path
+                    //    + FileUpload1.FileName);
+                    //Label1.Text = "Archivo Subido!";
                 }
                 catch (Exception ex)
                 {
-
-                    Label1.Text = "Archivo no puede ser subido.";
+                    Response.Write("Error : " + ex.Message);
+                    //Label1.Text = "Archivo no puede ser subido.";
                 }
             }
             else
             {
-                Label1.Text = "No acepta archivos de este tipo";
+                Response.Write("No acepta archivos de este tipo");
+                //Label1.Text = "No acepta archivos de este tipo";
             }
         }
 
