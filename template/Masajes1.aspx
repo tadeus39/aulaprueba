@@ -22,8 +22,8 @@
                 <div class="col-sm-6">
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/MasajeCuello.jpg" >
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Masajes/CuelloEspalda3.jpg" >
                         </div>
                     </div>
                 </div>
@@ -34,8 +34,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/MasajeDeportivo.png" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Masajes/RexPodal.jpg" >
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/MasajeReflexologia.jpg" >
+                            <img class="img-responsive" src="images/Masajes/Holistico1.jpg" >
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes.jpg" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Masajes/masajesueco1.jpeg" >
                             </div>
                         </div>
                     </div>
@@ -112,8 +112,8 @@
                 <div class="col-sm-6">
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Masajes/Deportivo2.jpg" >
                         </div>
                     </div>
                 </div>
@@ -124,8 +124,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Masajes/PiedrasCalientes.jpg" >
                             </div>
                         </div>
                     </div>
@@ -160,8 +160,8 @@
                 <div class="col-sm-6">
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Masajes/QuirogolfMassage1.jpg" >
                         </div>
                     </div>
                 </div>
@@ -172,8 +172,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Masajes/Drenaje linfático2.jpg" >
                             </div>
                         </div>
                     </div>
@@ -207,8 +207,8 @@
                 <div class="col-sm-6">
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Masajes/Prenatal.jpg" >
                         </div>
                     </div>
                 </div>
@@ -219,8 +219,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Masajes/Espejos1.jpg" >
                             </div>
                         </div>
                     </div>
@@ -254,8 +254,8 @@
                 <div class="col-sm-6">
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Masajes/lifting1.jpg" >
                         </div>
                     </div>
                 </div>

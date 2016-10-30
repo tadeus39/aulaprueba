@@ -45,7 +45,7 @@
   
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
 
-  <link rel="shortcut icon" href="images/spazio.ico">
+  <link rel="shortcut icon" href="images/logoSpa.png">
 </head><!--/head-->
 
 <body>
@@ -111,14 +111,13 @@
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
+   <div class="footer-bottom">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p>&copy; 2016 Oxygen Theme.</p>
+            <p>Creado por N&O Tecnologías</p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right">Creado por <a >N&O Tecnologías</a></p>
           </div>
         </div>
       </div>

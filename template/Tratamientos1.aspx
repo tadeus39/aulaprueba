@@ -20,8 +20,8 @@
                 <div class="col-sm-6">
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/MasajeCuello.jpg" >
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Tratamientos/Catio.jpg">
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/MasajeDeportivo.png" >
+                                <img class="img-responsive" src="images/Tratamientos/Aromaterapia1.jpg" >
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/MasajeReflexologia.jpg" >
+                            <img class="img-responsive" src="images/Tratamientos/lifting3.png" >
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes.jpg" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Tratamientos/Espuma.jpeg" >
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <img class="img-responsive" src="images/Tratamientos/Citrica.jpe" >
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                                <img class="img-responsive" src="images/Tratamientos/Chocolaterapia.jpg" >
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <img class="img-responsive" src="images/Tratamientos/Oxigeno.jpg" >
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                                <img class="img-responsive" src="images/Tratamientos/micro.jpg" >
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                 <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="folio-image">
-                            <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <img class="img-responsive" src="images/Tratamientos/bronceado.jpg" >
                         </div>
                     </div>
                 </div>
@@ -203,8 +203,8 @@
                 <div class="col-sm-6">
                     <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="folio-image">
-                                <img class="img-responsive" src="images/Masajes/piedras.jpg" >
+                            <div class="folio-image" align="center">
+                                <img class="img-responsive" src="images/Tratamientos/reductor.jpg">
                             </div>
                         </div>
                     </div>
