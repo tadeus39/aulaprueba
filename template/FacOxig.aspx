@@ -1,0 +1,45 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/mpUno.master" AutoEventWireup="true" CodeFile="FacOxig.aspx.cs" Inherits="FacOxig" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+      <br />
+            <br />
+    <a id='ver' class="myButton">Regresar al Menú Masajes</a>
+            <br />
+            <br />
+    <div class="row">
+                <div class="col-sm-6">
+                <div align="center" class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"> 
+                    <h5><b> Facial Oxigenante </b></h5>
+                    <p>Este tratamiento esta  formulado para recuperar la pérdida de vitalidad en tu piel.</p>
+                    <p>Duración 60 minutos</p>
+                    <p>Gracias a los beneficios del Peróxido de Hidrógeno y al Agua Viva de las algas verdes Spirulinas, 
+                       (extremadamente ricas en vitaminas y minerales) logramos aportar un extra de oxígeno. 
+                       Una acción purificante, revitalizante, hidratante e iluminadora que ofrece una respuesta a las necesidades 
+                       esenciales de todas las pieles. </p>
+                </div>
+            </div>
+                <div class="col-sm-6">
+                <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="folio-image" align="center">
+                            <img class="img-responsive" src="images/Faciales/Oxigeno1.jpg" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> 
+     <br />
+            <br />
+            <br />
+            <br />
+      <script>
+
+
+          $("#ver").click(function () {
+              window.location.href = 'Faciales1.aspx';
+          });
+          </script>
+ 
+
+</asp:Content>
+
