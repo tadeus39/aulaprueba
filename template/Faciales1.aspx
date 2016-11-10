@@ -111,8 +111,8 @@
                
          <div class="row">
         <%--  <div class="text-center col-sm-8 col-sm-offset-2">--%>
-            <h2>Faciales</h2>
-            <p>Tenemos un facial especial para ti</p>
+            <h2 >Faciales</h2>
+            <p >Tenemos un facial especial para ti</p>
              <br />
              <br />
              <br />   
