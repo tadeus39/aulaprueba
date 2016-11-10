@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <br />
             <br />
-    <a id='ver' class="myButton">Regresar al Menú Masajes</a>
+    <a id='ver' class="myButton">Regresar al Menú Tratamientos</a>
             <br />
             <br />
      <div class="row">

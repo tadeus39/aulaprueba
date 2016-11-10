@@ -37,6 +37,8 @@
 	body {
 		font-size: 14px;
 	}
+
+
 	#home-slider .caption h1 {
 		font-size: 40px;
 	}
@@ -45,6 +47,8 @@
 		padding: 0 30px;
 
 	}
+
+  
 	.left-control, .right-control {
 		font-size: 20px;
 		height: 30px;
@@ -76,6 +80,8 @@
 		padding-bottom: 8px;
 		padding-top: 10px;
 	}
+
+   
 
 	/*services*/
 	section {
@@ -218,6 +224,11 @@
 
 /* XS Portrait */
 @media (max-width: 479px) {
+
+    #home-slider .caption  {
+		background-size :280px;
+	}
+    
   
 	.team-members .col-sm-3, 
 	.pricing-table .col-sm-3, 

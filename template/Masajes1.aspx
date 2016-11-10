@@ -11,15 +11,15 @@
         #cont {
             display: inline-block;
             height: 768px;
-            z-index: 400;
+            z-index: 300;
             top: 100px;
         }
 
         .selector {
             position: absolute;
-            left: 48%;
-            width: 180px;
-            height: 180px;
+            left: 38%;
+            width: 140px;
+            height: 140px;
             margin-top: -10px;
             margin-left: -10px;
         }
@@ -42,7 +42,7 @@
                     font-size: 20px;
                     background-image: url(images/logoSpa.png);
                     background-repeat: no-repeat;
-                    background-size: 150px;
+                    background-size: 120px;
                     background-position-x: center;
                     background-position-y: center;
                     cursor: pointer;
@@ -61,7 +61,7 @@
                     position: absolute;
                     list-style: none;
                     padding: 0px;
-                    margin: -100px;
+                    margin: -10px;
                     top: -20px;
                     right: -20px;
                     bottom: -20px;
@@ -112,10 +112,15 @@
             
            <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
-          <div class="text-center col-sm-8 col-sm-offset-2">
+         <%-- <div class="text-center col-sm-8 col-sm-offset-2">--%>
             <h2>Masajes</h2>
             <p>Conoce la variedad de masajes que tenemos para ti</p>
-           </div>
+              <br />
+             <br />
+             <br />   
+             <br />
+                     
+          <%-- </div>--%>
              </div>
                 </div>
 
@@ -124,57 +129,57 @@
                     <li>
 
 
-                        <img id='c1' src="images/Masajes/CuelloEspalda3.jpg" height="150" width="150" style="transform: rotate(0deg)" />
+                        <img id='c1' src="images/Masajes/CuelloEspalda3.jpg" height="80" width="80" style="transform: rotate(0deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c2' src="images/Masajes/RexPodal.jpg" height="150" width="150"  style="transform: rotate(330deg)" />
+                        <img id='c2' src="images/Masajes/RexPodal.jpg" height="80" width="80"  style="transform: rotate(330deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c3' src="images/Masajes/Holistico1.jpg" height="150" width="150"  style="transform: rotate(300deg)"  />
+                        <img id='c3' src="images/Masajes/Holistico1.jpg" height="80" width="80"   style="transform: rotate(300deg)"  />
                     </li>
                      <li>
 
 
-                        <img id='c4' src="images/Masajes/masajesueco1.jpeg" height="150" width="150"  style="transform: rotate(270deg)" />
+                        <img id='c4' src="images/Masajes/masajesueco1.jpeg" height="80" width="80"   style="transform: rotate(270deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c5' src="images/Masajes/Deportivo2.jpg" height="150" width="150"  style="transform: rotate(240deg)"  />
+                        <img id='c5' src="images/Masajes/Deportivo2.jpg" height="80" width="80"  style="transform: rotate(240deg)"  />
                     </li>
                     <li>
 
 
-                        <img id='c6' src="images/Masajes/PiedrasCalientes.jpg" height="150" width="150"  style="transform: rotate(210deg)" />
+                        <img id='c6' src="images/Masajes/PiedrasCalientes.jpg" height="80" width="80"   style="transform: rotate(210deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c7' src="images/Masajes/QuirogolfMassage1.jpg" height="150" width="150"  style="transform: rotate(180deg)" />
+                        <img id='c7' src="images/Masajes/QuirogolfMassage1.jpg" height="80" width="80"   style="transform: rotate(180deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c8' src="images/Masajes/Drenaje linfático2.jpg" height="150" width="150"  style="transform: rotate(150deg)" />
+                        <img id='c8' src="images/Masajes/Drenaje linfático2.jpg" height="80" width="80"  style="transform: rotate(150deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c9' src="images/Masajes/Prenatal.jpg" height="150" width="150"  style="transform: rotate(120deg)" />
+                        <img id='c9' src="images/Masajes/Prenatal.jpg" height="80" width="80"   style="transform: rotate(120deg)" />
                     </li>
                     <li>
 
 
-                        <img id='c10' src="images/Masajes/Espejos1.jpg" height="150" width="150"  style="transform: rotate(90deg)" />
+                        <img id='c10' src="images/Masajes/Espejos1.jpg" height="80" width="80"   style="transform: rotate(90deg)" />
                     </li>
                         <li>
 
 
-                        <img id='c11' src="images/Masajes/lifting1.jpg" height="150" width="150"  style="transform: rotate(60deg)" />
+                        <img id='c11' src="images/Masajes/lifting1.jpg" height="80" width="80"   style="transform: rotate(60deg)" />
                     </li>
                    <%-- <li>
 
