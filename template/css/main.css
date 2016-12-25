@@ -61,7 +61,7 @@ h3 {
 }
 
 .btn.btn-primary:hover {
-  background-color: #00FFFF;
+    background-color: #26a7ae; /*#00FFFF;*/
 }
 
 .navbar-nav li a:hover, 
@@ -561,7 +561,7 @@ section {
 }
 
 #team .img-responsive {
-  width: 100%;
+} width: 100%;
   cursor: pointer;
 }
 

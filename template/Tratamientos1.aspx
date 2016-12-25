@@ -45,7 +45,7 @@
                     background-position-x: center;
                     background-position-y: center;
                     cursor: pointer;
-                    box-shadow: 0 3px 3px #58CB95;
+                    box-shadow: 0 3px 3px #26a7ae;
                     transition: all .3s;
                    
                 }
