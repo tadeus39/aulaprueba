@@ -124,6 +124,7 @@ section {
 #home-slider {
   overflow: hidden;
   position: relative;
+  height: 540px;
 }
 
 #home-slider .caption {

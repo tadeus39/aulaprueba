@@ -15,8 +15,8 @@
   <link href="css/responsive.css" rel="stylesheet">
   
 <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-    <script type="text/javascript">
-var _smartsupp = _smartsupp || {};
+  <!--  <script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
 _smartsupp.key = '100dbefa5f6795a146cb5073ec1ec37095882467';
 window.smartsupp||(function(d) {
 	var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
@@ -24,7 +24,7 @@ window.smartsupp||(function(d) {
 	c.type='text/javascript';c.charset='utf-8';c.async=true;
 	c.src='//www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
 })(document);
-    </script>
+    </script>-->
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -36,12 +36,12 @@ window.smartsupp||(function(d) {
 
 <body>
 
-  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <div class="preloader" > <i class="fa fa-circle-o-notch fa-spin"></i></div>
 
-  <header id="home">
-    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url(images/slider/Portada4.jpg)">
+  <header id="home" >
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel"  >
+      <div class="carousel-inner" >
+        <div class="item active" style="background-image: url(images/slider/Portada4.jpg)" item-height="200" >
         </div>
         <div class="item" style="background-image: url(images/PiedrasLogo.png)">
         </div>
@@ -115,13 +115,6 @@ window.smartsupp||(function(d) {
             <div class="service-info">
               <h3>Tratamientos</h3>
               <p>Especiales para cada tipo de piel </p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms" align="center">
-            <img id='c4' class="img-responsive" src="images/Promociones.jpg" alt="" width="200" height="150">
-            <div class="service-info">
-              <h3>Videos</h3>
-              <p>Entra y conoce como realizamos nuestros servicios</p>
             </div>
           </div>
           <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms" align="center">
@@ -503,9 +496,6 @@ window.smartsupp||(function(d) {
         });
         $("#c3").click(function () {
             window.location.href = 'Tratamientos1.aspx';
-        });
-        $("#c4").click(function () {
-            window.location.href = 'Videos.aspx';
         });
         $("#c5").click(function () {
             window.location.href = 'Galerias1.aspx';
