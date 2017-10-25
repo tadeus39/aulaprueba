@@ -22,7 +22,6 @@
             margin-top: -10px;
             margin-left: -10px;
         }
-
             .selector,
             .selector button {
                 font-family: 'Oswald', sans-serif;
